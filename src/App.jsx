@@ -1,12 +1,12 @@
-import './App.css'
+import "./App.css";
+import SpacecraftBuilder from "./components/SpacecraftBuilder";
 
 function App() {
-
   return (
     <>
-    <h1>Hello, World!</h1>
+      <SpacecraftBuilder />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
